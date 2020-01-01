@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(현재 위치)"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="23dp"></TextView>
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="5dp"
+        android:textSize="17dp"></TextView>
+
+    <ImageView
+        android:id="@+id/imgMain"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="18dp"></ImageView>
+
+    <TextView
+        android:id="@+id/txtMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="18dp"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/txtSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="25dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="미세먼지"
+                android:textAlignment="center"
+                android:textSize="17dp"></TextView>
+            <ImageView
+                android:id="@+id/imgMisae"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"></ImageView>
+            <TextView
+                android:id="@+id/txtMisaeGrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:id="@+id/txtMisae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                android:layout_marginTop="2dp"
+                android:textSize="13dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="25dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="초미세먼지"
+                android:textAlignment="center"
+                android:textSize="17dp"></TextView>
+            <ImageView
+                android:id="@+id/imgChomisae"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"></ImageView>
+            <TextView
+                android:id="@+id/txtChomisaeGrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:id="@+id/txtChomisae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                android:layout_marginTop="2dp"
+                android:textSize="13dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="25dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이산화질소"
+                android:textAlignment="center"
+                android:textSize="17dp"></TextView>
+            <ImageView
+                android:id="@+id/imgYisanhwa"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"></ImageView>
+            <TextView
+                android:id="@+id/txtYisanhwaGrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:id="@+id/txtYisanhwa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                android:layout_marginTop="2dp"
+                android:textSize="13dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오존"
+                android:textAlignment="center"
+                android:textSize="17dp"></TextView>
+            <ImageView
+                android:id="@+id/imgOzone"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"></ImageView>
+            <TextView
+                android:id="@+id/txtOzoneGrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:id="@+id/txtOzone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                android:layout_marginTop="2dp"
+                android:textSize="13dp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:textSize="13dp"
+        android:text="실시간 미세먼지 예보 확인"
+        android:layout_marginTop="27dp"></Button>
+</LinearLayout>
+
+<!--이산화질소 ppm-->
+<!--오존 ppm-->
+<!--일산화탄소 ppm-->
+<!--아황산가스 ppm-->
+<!--미세먼지 μg/m³-->
+<!--초미세 μg/m³-->

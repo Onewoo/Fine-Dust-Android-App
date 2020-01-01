@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForcastActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="실시간 미세먼지 예보"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/txtForcastDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="19dp"
+        android:layout_marginTop="8dp"></TextView>
+    <TextView
+        android:id="@+id/txtForcastDateToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:textSize="21dp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/txtForcastToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="7dp"
+        android:textSize="19dp"></TextView>
+    <TextView
+        android:id="@+id/txtForcastDateTomorrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="21dp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/txtForcastTomorrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="7dp"
+        android:textSize="19dp"></TextView>
+
+</LinearLayout>
